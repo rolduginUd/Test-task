@@ -65,6 +65,7 @@ body {
     line-height: 40px;
     color: #383334;
     font-weight: 900;
+    margin-right: 60px;
 }
 .logoImg {
     height: 35px;
@@ -90,9 +91,12 @@ body {
     left: -280px;
     height: 900px;
 }
+.infoTextCenter {
+    margin-top: -80px;
+}
 .infoTextCenter h1 {
-    font-size: 24px;
-    line-height: 34px;
+    font-size: 44px;
+    line-height: 44px;
     color: #383334;
     font-weight: 900;
 }
@@ -106,10 +110,12 @@ body {
 .redUnderline {
     text-decoration: underline;
     text-decoration-color: #ff6b00;
+    font-size: 30px;
 }
 .greenUnderline {
     text-decoration: underline;
     text-decoration-color: #a7c93d;
+    font-size: 30px;
 }
 .elipse {
     display: grid;
@@ -227,6 +233,9 @@ input:active, :hover, :focus {
     border-radius: 5px;
     padding: 0 5px;
 }
+.simbolInHeader {
+    font-size: 30px;
+}
 .oldPrice span:before {
     border-bottom: 1px solid #ea7845;
     position: absolute;
@@ -236,6 +245,9 @@ input:active, :hover, :focus {
     width: 100%;
     height: 50%;
     transform: rotate(-15deg); 
+}
+.smallUnderlineText {
+    font-size: 22px;
 }
 .oldPrice span::after {
     border-bottom: 1px solid #ea7845;
@@ -285,7 +297,7 @@ input:active, :hover, :focus {
        height: 700px;
    }
    .infoTextCenter {
-       margin: 20px !important;
+       margin-top: -30px;
    }
    .formBg {
        padding: 0 40px;
@@ -297,6 +309,9 @@ input:active, :hover, :focus {
     .arrow {
         right: 0;
         top: 33%;
+    }
+    .redUnderline , .greenUnderline, .simbolInHeader{
+        font-size: 20px;
     }
 }
 
@@ -311,7 +326,9 @@ input:active, :hover, :focus {
         padding: 0 30px;
         margin: 0;
     }
-    
+    .logoText {
+        margin: 0;
+    }
 }
 @media (max-width: 768px) { 
     .footer {
@@ -333,6 +350,9 @@ input:active, :hover, :focus {
         right: 15%;
         top: 33%;
     }
+    .infoTextCenter {
+        margin-top: 50px;
+    }
 }
 @media (max-width: 576px) { 
     .footer p {
@@ -345,7 +365,7 @@ input:active, :hover, :focus {
     }
     .infoTextCenter h1 {
         text-align: center;
-        font-size: 18px;
+        font-size: 30px;
     }
     .formBg {
         padding: 0 16%;
@@ -359,6 +379,9 @@ input:active, :hover, :focus {
     }
     .arrow {
         display: none;
+    }
+    .redUnderline , .greenUnderline, .simbolInHeader{
+        font-size: 16px;
     }
 }
 @media (max-width: 526px) { 
